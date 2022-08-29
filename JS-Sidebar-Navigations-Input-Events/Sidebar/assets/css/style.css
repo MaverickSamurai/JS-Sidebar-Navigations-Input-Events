@@ -1,0 +1,55 @@
+.sidebar{
+    width: 1000px;
+    height: 130px;
+    position: relative;
+    margin-left: 200px;
+    background-color: seagreen;
+    transition: all 1s;
+    
+}
+
+.show-sidebar{
+    float: right;
+    margin-top: 40px;
+    margin-right: 15px;
+    color: coral;
+    background-color: dodgerblue;
+}
+
+.hide{
+    transform: translateY(-130px);
+}
+
+.sidebar .icon i{
+    color: crimson;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.sidebar .nav-list ul{
+    display: flex;
+    gap: 30px;
+    padding: 35px;
+    margin-left: 120px;
+}
+
+.sidebar .nav-list ul li{
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+.sidebar .nav-list ul li a{
+    color: snow;
+    text-decoration: none;
+    transition:all 0.5s;
+} 
+
+.sidebar .nav-list ul li a:hover{
+    color: springgreen;
+    transition-delay: 0.3s;
+}
+
